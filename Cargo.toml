@@ -1,0 +1,13 @@
+[package]
+name = "warp-graphql-evaluation"
+version = "0.1.0"
+authors = ["Thomas Bonk <tbo@cybo.biz>"]
+edition = "2018"
+
+[dependencies]
+warp = "0.1.13"
+env_logger = "0.6.1"
+juniper = "0.11.1"
+juniper_warp = "0.2.0"
+log = "0.4.6"
+juniper_codegen = "0.11.1"
